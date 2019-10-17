@@ -1,0 +1,465 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/chess-board.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Vollkorn:400,400i,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu-wrapper">
+        <img class="menu-logo" src="images/icons/svg/logo_finchess.svg">
+        <nav class="menu">
+            <div class="menu-button"><a class="js-scroll-link" href="#about">О мероприятии</a></div>
+            <div class="menu-button"><a class="js-scroll-link" href="#rules">Правила и формат</a></div>
+            <div class="menu-button"><a class="js-scroll-link" href="#faq">FAQ</a></div>
+            <div class="menu-button"><a class="js-scroll-link" href="#contacts">Контакты</a></div>
+        </nav>
+        <a class="join-button js-scroll-link" href="#participate">УЧАСТВОВАТЬ</a>
+    </div>
+
+    <main>
+        <div class="about">
+            <div class="intro">
+                <div class="intro-left">
+                    <h1>Играй, развивайся, <br>заводи новые знакомства!</h1>
+                    <p>Первый в России финтех-турнир по шахматам: игра, соревнование, тимбилдинг и нетворкинг</p>
+                    <a class="join-button js-scroll-link" href="#participate">УЧАСТВОВАТЬ</a>
+                    <a class="about-tournament-button js-scroll-link" href="#about">О ТУРНИРЕ</a>
+                </div>
+                <div class="intro-right">
+                    <img src="images/chess_game.svg">
+                </div>
+            </div>
+            <div class="what-is" id="about">
+                <h2 class="what-is-header">Что такое FinChess?</h2>
+                <div class="what-is-list">
+                    <div class="what-is-left">
+                        <ul>
+                            <li>Первый шахматный турнир среди финансовых и финтех–компаний;</li>
+                            <li>Неформальное общение;</li>
+                            <li>Новые знакомства и нетворкинг;</li>
+                            <li>Встреча старых друзей;</li>
+                            <li>Позитив и отличное настроение;</li>
+                        </ul>
+                    </div>
+                    <div class="what-is-right">
+                        <ul>
+                            <li>Атмосфера соревнования;</li>
+                            <li>Тренировка логики;</li>
+                            <li>Рейтинг финтех–компаний по шахматам;</li>
+                            <li>Шахматная фотосессия;</li>
+                            <li>Призы.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="outro">
+                <h2>Вам будет интересно стать участником, если:</h2>
+                <div class="outro-list">
+                    <div class="outro-item">
+                        <div class="outro-item-in">
+                            <div class="outro-image-wrapper outro-image-wrapper-purse">
+                                <!--<img class="outro-image purse" src="images/icons/svg/purse.svg">-->
+                                <span class="purse"></span>
+                                <span class="dol dol-1"></span>
+                                <span class="dol dol-2"></span>
+                                <span class="dol dol-3"></span>
+                            </div>
+                            <div class="outro-p tight">
+                            Вы работаете в финансовой или финтех–компании
+                            </div>
+                        </div>
+                    </div>
+                    <div class="outro-item">
+                        <div class="outro-item-in">
+                            <div class="outro-image-wrapper">
+                                <!--<img class="outro-image heart" src="images/icons/svg/heart.svg">-->
+                                <span class="main-heart"></span>
+                                <span class="heart heart-1"></span>
+                                <span class="heart heart-2"></span>
+                                <span class="heart heart-3"></span>
+                            </div>
+                        </div>
+                        <div class="outro-p">
+                        Любите (или умеете, или умеете и любите, или не очень умеете,
+                        но очень любите) играть в шахматы
+                        </div>
+                    </div>
+                    <div class="outro-item">
+                        <div class="outro-item-in">
+                            <div class="outro-image-wrapper">
+                                <!--<img class="outro-image knight" src="images/icons/svg/chess_knight_yellow.svg">-->
+                                <span class="knight"></span>
+                                <span class="bubble bubble-1"></span>
+                                <span class="bubble bubble-2"></span>
+                                <span class="bubble bubble-3"></span>
+                            </div>
+                        </div>
+                        <div class="outro-p tight">
+                        Хотите освежить в памяти навыки игры
+                        </div>
+                    </div>
+                    <div class="outro-item">
+                        <div class="outro-item-in">
+                            <div class="outro-image-wrapper">
+                                <!--<img class="outro-image gloves" src="images/icons/svg/boxing_gloves_left.svg">-->
+                                <span class="glove left"></span>
+                                <span class="glove right"></span>
+                                <span class="electro"></span>
+                            </div>
+                        </div>
+                        <div class="outro-p">
+                        Хотите проверить свои силы за шахматной доской с
+                        интересным соперником
+                        </div>
+                    </div>
+                    <div class="outro-item">
+                        <div class="outro-item-in">
+                            <div class="outro-image-wrapper">
+                                <!--<img class="outro-image smile" src="images/icons/svg/smile.svg">-->
+                                <span class="smile"></span>
+                                <span class="star star-1"></span>
+                                <span class="star star-2"></span>
+                                <span class="star star-3"></span>
+                            </div>
+                        </div>
+                        <div class="outro-p">
+                        Хотите интересно провести время в компании друзей,
+                        познакомиться с новыми людьми
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rules" id="rules">
+            <div class="left">
+                <h2 class="rules-header">Формат мероприятия</h2>
+                <div class="rules-p">
+                    <p class="rules-info">
+                        <a class="rules-info-link js-tooltip-link" href="#">
+                            Блиц-турнир
+                            <span class="rules-info-tooltip js-tooltip-content">
+                                Международная шахматная федерация — международная спортивная
+                                организация, объединяющая национальные шахматные федерации. Занимается популяризацией шахмат,
+                                организацией различных международных соревнований, в том числе чемпионатов мира.
+                            </span>
+                        </a>
+                        по швейцарской системе.
+                    </p>
+                    <p class="rules-info">
+                        Контроль времени: 5+2.
+                    </p>
+                    <p class="rules-info">
+                        Командные соревнования — 4 человека, один из них капитан команды.
+                    </p>
+                    <p class="rules-info">
+                        Турнир проводится по правилам
+                        <a class="rules-info-link js-tooltip-link" href="#">
+                            ФИДЕ
+                            <span class="rules-info-tooltip js-tooltip-content">
+                                Международная шахматная федерация — международная спортивная
+                                организация, объединяющая национальные шахматные федерации. Занимается популяризацией шахмат,
+                                организацией различных международных соревнований, в том числе чемпионатов мира.
+                            </span>
+                        </a>.
+                    </p>
+                </div>
+                <div class="quote">
+                    <div class="line"></div>
+                    <img src="images/avatars/bronstein.png" width="48" height="48">
+                    <div class="quote-text">
+                        <div>
+                            «В шахматах выигрывает каждый. Если ты получаешь удовольствие от игры, а это самое
+                            главное, то даже поражение не страшно».
+                        </div>
+                        <span>
+                            <b>Давид Бронштейн</b> (советский шахматист, гроссмейстер (1950).
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="images/girls.svg">
+            </div>
+        </div>
+        <div class="faq" id="faq">
+            <h2 class="faq-header">Ответы на вопросы, которые вы, возможно, хотите задать</h2>
+            <div class="tabs">
+                <div class="tabs-button js-tab-link is-active" data-target="tab1">ВОПРОСЫ ПО МЕРОПРИЯТИЮ</div>
+                <div class="tabs-button js-tab-link" data-target="tab2">ВОПРОСЫ ПО ИГРЕ</div>
+            </div>
+            <ul class="faq-ul is-active js-tab-content" data-target="tab1">
+                <li class="faq-list">
+                    <p class="faq-question js-toggle-question">
+                        Что такое шахматный турнир?
+                    </p>
+                    <p class="faq-answer">
+                        СКРЫТЫЙ ТЕКСТ
+                    </p>
+                </li>
+                <li class="faq-list">
+                    <p class="faq-question js-toggle-question">
+                        Какой контроль времени будет на июньском турнире Finchess?
+                    </p>
+                    <p class="faq-answer">
+                        Турнир Finchess будет проходить в виде командного блиц–турнира с контролем времени на партию
+                        5+2 (5 минут + 2 секунды добавления после каждого хода) у каждого.
+                    </p>
+                </li>
+                <li class="faq-list">
+                    <p class="faq-question">
+                        Что такое блиц–турнир?
+                    </p>
+                </li>
+                <li class="faq-list">
+                    <p class="faq-question">
+                        Какой формат турнира планируется (по какой системе будет проведен)?
+                    </p>
+                </li>
+                <li class="faq-list">
+                    <p class="faq-question">
+                        Что такое круговой турнир?
+                    </p>
+                </li>
+            </ul>
+            <ul class="faq-ul js-tab-content" data-target="tab2">
+                <li class="faq-list">
+                    <p class="faq-question">
+                        Что такое швейцарская система проведения шахматного турнира?
+                    </p>
+                </li>
+                <li class="faq-list">
+                    <p class="faq-question">
+                        А как проходят турниры по схевенингенской системе?
+                    </p>
+                </li>
+                <li class="faq-list">
+                    <p class="faq-question">
+                        Какие требования к участникам команд в Finchess?
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="try-game">
+            <h2 class="game-header">Хотите потренироваться?</h2>
+            <p class="game-p">
+                Решите диаграмму (она интерактивная, смело двигайте фигуры 😊)
+            </p>
+            <div class="game-wrapper">
+                <div class="game">
+                    <div class="top-line">
+                        <div class="A">A</div>
+                        <div class="B">B</div>
+                        <div class="C">C</div>
+                        <div class="D">D</div>
+                        <div class="E">E</div>
+                        <div class="F">F</div>
+                        <div class="G">G</div>
+                        <div class="H">H</div>
+                    </div>
+                    <div class="bottom-line">
+                        <div class="A">A</div>
+                        <div class="B">B</div>
+                        <div class="C">C</div>
+                        <div class="D">D</div>
+                        <div class="E">E</div>
+                        <div class="F">F</div>
+                        <div class="G">G</div>
+                        <div class="H">H</div>
+                    </div>
+                    <div class="left-col">
+                        <div class="c1">1</div>
+                        <div class="c2">2</div>
+                        <div class="c3">3</div>
+                        <div class="c4">4</div>
+                        <div class="c5">5</div>
+                        <div class="c6">6</div>
+                        <div class="c7">7</div>
+                        <div class="c8">8</div>
+                    </div>
+                    <div class="right-col">
+                        <div class="c1">1</div>
+                        <div class="c2">2</div>
+                        <div class="c3">3</div>
+                        <div class="c4">4</div>
+                        <div class="c5">5</div>
+                        <div class="c6">6</div>
+                        <div class="c7">7</div>
+                        <div class="c8">8</div>
+                    </div>
+                    <div class="border-in"></div>
+                    <div class="lines">
+                        <div class="line-first">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                        <div class="line-second">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                        <div class="line-first">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                        <div class="line-second">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                        <div class="line-first">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                        <div class="line-second">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                        <div class="line-first">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                        <div class="line-second">
+                            <div class="brown-square1"></div>
+                            <div class="brown-square2"></div>
+                            <div class="brown-square3"></div>
+                            <div class="brown-square4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="game-p">Ход белых. Мат в 1 ход.</p>
+        </div>
+        <div class="request">
+            <h2 class="request-header">Подайте заявку</h2>
+            <p class="request-p">Мереприятие пройдёт 7 июня 2018 года в <a href="#">Scenario Cafe</a> в 18:30</p>
+            <div class="request-row">
+                <div class="left">
+                    <form>
+                        <div class="form-container">
+                            <input class="request-form" type="text" name="team-name">
+                            <span>Название команды</span>
+                        </div>
+                        <div class="form-container">
+                            <input  class="request-form" type="text" name="company-name">
+                            <span>Название компании</span>
+                        </div>
+                        <div class="form-container">
+                            <input  class="request-form" type="text" name="captain-name">
+                            <span>ФИО капитана команды</span>
+                        </div>
+                        <div class="form-container">
+                            <input  class="request-form" type="email" name="e-mail">
+                            <span>E-mail</span>
+                        </div>
+                        <div class="form-container">
+                            <input  class="request-form" type="tel" name="tel"
+                                    pattern="2-[0-9]{3}-[0-9]{3}">
+                            <span>Телефон</span>
+                        </div>
+                    </form>
+                    <div class="add-calendar">
+                        Добавьте в свой календарь
+                        <button class="calendar-button google" type="button"></button>
+                        <button class="calendar-button outlook" type="button"></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <p class="row-p">
+                        <span class="price">6 000₽</span>
+                        <span class="price-p">/команда</span>
+                    </p>
+                    <p>Организационный взнос за участие</p>
+                    <ul>
+                        <li class="request-right-list">Участие четырех человек;</li>
+                        <li class="request-right-list">Welcome-кофе и chess-чай;</li>
+                        <li class="request-right-list">Награды и сюрпризы.</li>
+                    </ul>
+                    <div class="captcha"></div>
+                    <button class="reg-button" type="button" name="registration">
+                        ЗАРЕГИСТРИРОВАТЬ <img src="images/icons/svg/arrow_white.svg">
+                    </button>
+                    <div class="reg-p">Вы будете перенаправлены на страницу оплаты</div>
+                </div>
+            </div>
+        </div>
+        <div class="event-place">
+            <h2 class="place-header">Место проведения</h2>
+            <p class="place-p">Сбор гостей — 18:00. Начало турнира — в 19:00 </p>
+            <div class="map" id="map"></div>
+        </div>
+        <div class="line-2"></div>
+        <div class="contacts" id="contacts">
+            <table class="contacts-table">
+                <tr class="contacts-row-title">
+                    <td>Адрес</td>
+                    <td>Контактное лицо</td>
+                    <td>Участникам</td>
+                    <td>Прессе и партнерам</td>
+                </tr>
+                <tr class="contacts-row">
+                    <td>Scenario Cafe , Москва, ул. Тверская, 22A</td>
+                    <td>Ольга Чернышева Организатор</td>
+                    <td>+7 915 289 54 86
+                        chess@friflex.com </td>
+                    <td>+7 915 289 54 86
+                        olga@friflex.com </td>
+                </tr>
+            </table>
+        </div>
+        <div class="partners">
+            <h2 class="partners-header">Наши партнёры</h2>
+            <div class="partners-list">
+                <div class="partner"></div>
+                <div class="partner"></div>
+                <div class="partner"></div>
+                <div class="partner"></div>
+                <div class="partner"></div>
+            </div>
+            <div class="line-3"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <img src="images/icons/svg/logo_finchess_gray.svg">
+        <div class="footer-p">© 2018 FinChess</div>
+        <a class="fb" href="">
+            <div class="fb-circle">
+                <img src="images/icons/svg/fb.svg">
+            </div>
+        </a>
+    </footer>
+
+    <script src="js/javascript.js"></script>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of
+            var chess = {lat: 55.767094, lng: 37.601852};
+            // The map, centered at
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: chess});
+            // The marker, positioned at
+            var marker = new google.maps.Marker({position: chess, map: map});
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD491_1BmbRk7wo3Sr5I5Ji0inpdV7PGgQ&callback=initMap">
+    </script>
+</body>
+
+</html>
