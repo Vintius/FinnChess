@@ -825,17 +825,22 @@ h1 {
     border: solid 1px #d0d7dd;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
-    color: transparent;
+    color: #989898;
     padding: 15px 0 15px 23px;
     background: transparent;
 }
 
-.request-form:focus {
-    color: #989898;
+.request-form::placeholder {
+    transition: color 0.1s ease-out;
+}
+
+.request-form:focus::placeholder {
+    color: transparent;
 }
 
 .form-container span {
     position: absolute;
+    opacity: 0;
     z-index: -10;
     top: 0;
     font-family: "Open Sans", Arial, sans-serif;
@@ -847,6 +852,7 @@ h1 {
 
 .request-form:focus ~ span {
     font-size: 12px;
+    opacity: 1;
     padding: 0 7px 0 7px;
     top: -10px;
     left: 16px;
