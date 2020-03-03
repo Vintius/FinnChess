@@ -1,2 +1,4 @@
-Landing page without adaptives. 
-Used native javascript.
+Лэндинг страница без адаптивов. 
+Использован нативный JavaScript.
+
+Для визуального просмотра: скачать проект, запустить index.html
