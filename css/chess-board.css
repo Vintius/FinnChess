@@ -14,7 +14,6 @@
     display: grid;
     grid-column: 2 / 10;
     grid-row: 1 / 2;
-    /*margin: 0 auto;*/
     grid-template-areas: "a b c d e f g h";
     text-align: center;
 }
@@ -23,7 +22,6 @@
     display: grid;
     grid-column: 2 / 10;
     grid-row: 10 / 11;
-    /*margin: 0 auto;*/
     grid-template-areas: "a b c d e f g h";
     text-align: center;
 }
@@ -32,34 +30,26 @@
     display: grid;
     grid-column: 1 / 2;
     grid-row: 2 / 10;
-    /*margin: auto 0;*/
-    /*grid-template-areas: "c1" "c2";*/
     text-align: center;
     line-height: 45px;
-    /*vertical-align: center;*/
 }
 
 .right-col {
     display: grid;
     grid-column: 10 / 11;
     grid-row: 2 / 10;
-    /*margin: auto 0;*/
-    /*grid-template-areas: "c1" "c2";*/
     text-align: center;
     line-height: 45px;
-    /*vertical-align: center;*/
 }
 
 
 .border-in {
-    /*display: grid;*/
     grid-column: 2 / 10;
     grid-row: 2 / 10;
     border: 1px solid black;
 }
 
 .lines {
-    /*display: grid;*/
     grid-column: 2 / 10;
     grid-row: 2 / 4;
 }
